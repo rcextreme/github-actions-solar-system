@@ -37,8 +37,8 @@ jobs:
           with:
             name: Mocha-Test-Result
             path: test-results.xml
-      code-coverage:
-         runs-on: ubuntu-latest
+    code-coverage:
+        runs-on: ubuntu-latest
         steps:
         - uses: actions/checkout@v4
         - uses: actions/setup-node@v4
